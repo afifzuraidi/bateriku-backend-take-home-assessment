@@ -1,0 +1,34 @@
+acdelco_professional:
+  brand: "ACDelco"
+  model: "Professional"
+  voltage: 12
+  price: 120
+  warranty: 24
+
+bosch_s4:
+  brand: "Bosch"
+  model: "S4"
+  voltage: 12
+  price: 150
+  warranty: 36
+
+optima_yellowtop:
+  brand: "Optima"
+  model: "YellowTop"
+  voltage: 12
+  price: 250
+  warranty: 48
+
+diehard_gold:
+  brand: "DieHard"
+  model: "Gold"
+  voltage: 12
+  price: 180
+  warranty: 36
+
+duralast_platinum:
+  brand: "Duralast"
+  model: "Platinum"
+  voltage: 12
+  price: 200
+  warranty: 42
