@@ -65,6 +65,26 @@ bin/dev
 ```
 The API will be accessible at http://localhost:3001.
 
+## Endpoints
+- User
+  - Sign up (POST)
+    - http://localhost:3001/signup
+  - Log in (POST)
+    - http://localhost:3001/login
+  - Log out (DELETE)
+    - http://localhost:3001/logout
+- Car batteries
+  - Index (GET)
+    - http://localhost:3001/car_batteries/
+  - Create (POST) (Require authentication)
+    - http://localhost:3001/car_batteries/
+  - Show (GET) (Require authentication)
+    - http://localhost:3001/car_batteries/[:id]
+  - Update (PATCH) (Require authentication)
+    - http://localhost:3001/car_batteries/[:id]
+  - Delete (DELETE) (Require authentication)
+    - http://localhost:3001/car_batteries/[:id]
+
 
 ## License
 
